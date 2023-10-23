@@ -15,6 +15,8 @@ This project is a command-line interface (CLI) tool written in Rust, providing f
 |-- src
 |   |-- lib.rs
 |   |-- main.rs
+|   |-- test_rust.sh
+|   |-- test_python.sh
 |
 |-- tests
 |   |-- cipher_tests.rs
@@ -39,7 +41,7 @@ python main.py <message> <shift>
 
 ## Performance Comparison
 
-Here is the result:
+Run script file 1 time and 1000 times in Python and Rust. Here is the result:
 
 |Language|      Run Script 1 Time       |       Run Script 1000 Times        | Average Resource Usage                                                                                     |
 |:---:|:--------------------------------:|:-----------------------------------:|:-----------------------------------------------------------------------------------------------------------|
