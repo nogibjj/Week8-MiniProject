@@ -37,6 +37,14 @@ python main.py <message> <shift>
 ```
 ![image](python_result.png)
 
+## Performance Comparison
+
+Here is the result:
+
+|Language|      Run Script 1 Time       |       Run Script 1000 Times        | Average Resource Usage                                                                                     |
+|:---:|:--------------------------------:|:-----------------------------------:|:-----------------------------------------------------------------------------------------------------------|
+|Python| Total time elapsed: 0.042 seconds |  Total time elapsed: 24.5 seconds  | User time: 0.02 seconds <br> System time: 0.01 seconds <br> CPU usage: 69% <br> Total time: 0.058 seconds  |
+|Rust| Total time elapsed: 0.42 seconds  | Total time elapsed: 14.0 seconds | User time: 0.03 seconds<br> System time: 0.01 seconds <br> CPU usage: 9% <br> Total time: 0.461 seconds    |
 ## Test
 ```bash
 cargo test
